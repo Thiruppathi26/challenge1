@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<style>
+body {
+  background-image: url(gif.gif);
+  text-align: center;
+  font-size: xx-large
+}
+
+h1 {
+  color: rgb(232, 217, 82);
+  text-align: center;
+}
+
+
+  
+label{
+    text-align: center;
+    color:rgb(108, 219, 225);
+}
+button{
+    color:black;
+    font-size: x-large;
+    
+
+}
+
+
+</style>
+</head>
+<body>
+
+<h1>Login page</h1><br><br>
+
+<form>
+    <label  for="fname">UserEmail:</label>
+    <input style="color: black;" type="email" id="fname" name="fname" ><br><br><br>
+    <label for="psw">Password:</label>
+    <input style="color:black;" type="password"pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" id="psw" name="psw"><br><br><br>
+   
+    <button>Login</button>
+
+    
+</form>
+
+</body>
+</html>
